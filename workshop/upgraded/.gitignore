@@ -1,0 +1,28 @@
+# Python virtual environments
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+
+# pytest cache
+.pytest_cache/
+
+# Editor/OS files
+*.swp
+*~
+.DS_Store
+
+# Sphinx build
+/docs/build/
+
+# Wheel files
+*.whl
+
+# Local config
+.env

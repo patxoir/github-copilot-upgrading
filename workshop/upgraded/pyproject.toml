@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guachi"
+version = "0.0.6"
+description = "Global, persistent configurations as dictionaries"
+authors = [
+    { name = "Alfredo Deza", email = "alfredodeza@gmail.com" }
+]
+readme = "README.rst"
+requires-python = ">=3.6"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["guachi"]
